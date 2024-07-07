@@ -1,0 +1,289 @@
+@import url(fontawesome.min.css);
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #444;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header h1{
+    float: left;
+}
+.nav{
+    text-align: right;
+}
+.nav ul li{
+    display: inline;
+    padding: 0 15px;
+}
+.nav ul li a{
+    color: rgba(255, 255, 255, 0.5);
+    transition: color .2s ease-in-out;
+}
+.nav ul li a:hover{
+    color: #fff;
+}
+.header{
+    background-image: url('../image/Black\ Wallpapers\ Free\ Download.jfif'), url('../image/spot-lights-blue-dark-background-indoor-5k-3840x2160-2092.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.top-menu{
+    padding: 40px;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+}
+.btn-blue{
+    background-color: #3cadd4;
+    color: #ffffff !important;
+
+}
+.btn-gray{
+    background-color: #fff;
+    color: #444 !important;
+
+}
+.btn-big{
+    font-size: 20px !important;
+    padding: 17px 35px;
+}
+.btn-dark{
+    background-color: #383b43;
+    color: #ffffff;
+}
+.banner-content{
+    text-align: center;
+    color: #ffffff;
+    padding: 150px 0;
+}
+.banner-content h2{
+    font-size: 60px;
+    line-height: 130px;
+}
+.banner-content p {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+h1,h2,h3,h4,h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+padding: 100px 0;
+text-align: center;
+}
+.service-header{
+    margin-bottom: 50px;
+}
+.service-header h2{
+    font-size: 42px;
+    color: #474747;
+    margin-bottom: 12px;
+}
+.service-header p{
+    font-size: 22px;
+    color: #858585;
+}
+
+.icon ::before{
+    font-family: FontAwsome;
+    font-style: normal;
+}
+.color-blue{
+    background-color: #3cadd4;
+    color: #ffffff;
+}
+.color-green{
+    background-color: #add43c;
+    color: #ffffff;
+}
+.color-red{
+    background-color: #d43c61;
+    color:#ffffff;
+}
+.big{
+    font-size: 40px;
+    padding:35px 50px ;
+}
+.rounded{
+    border-radius: 100%;
+}
+.service-content>*{
+    float: left;
+}
+.box{
+    background-color: #fff;
+    padding: 70px 30px;
+    border-radius: 4px;
+    width: calc(calc(100% / 3) - 82px);
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    margin: 0 10px;
+}
+
+.service-content::after,
+.service-content::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box h4{
+    color: #858585;
+    font-size: 20px;
+    margin: 60px 0 30px 0;
+}
+
+.box p{
+    line-height: 25px;
+}
+
+.service-content{
+    width: 85%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 850px) {
+    .box{
+        width: 100%;
+        padding: 60px 0;
+        margin: 10px 0;
+    }
+    
+}
+
+.about{
+    text-align: center;
+    padding: 100px 0;
+}
+.about-header h2{
+font-size: 42px;
+color: #474747;
+margin-bottom: 12px;
+}
+
+.about-header p {
+    font-size: 22px;
+    color: #858585;
+}
+
+.about-content{
+border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+border-top: 1px solid rgba(144, 144, 144, 0.25);
+margin: 60px auto;
+width: 90%;
+padding-top: 60px;
+}
+.about-content>*{
+    float: left;
+}
+.about-content::after,
+.about-content::before{
+    content: "";
+     display: block;
+     clear: both;
+}
+
+.profile{
+    width: 25%;
+    margin-bottom: 60px;
+}
+.profile img{
+    float: left;
+    width: 30%;
+    border-radius: 50%;
+}
+.profile h4{
+    margin-top: 30px;
+}
+.profile p{
+    line-height: 25px;
+}
+.about-footer p{
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 40px;
+
+}
+.about-footer {
+    width: 70%;
+    margin: 0 auto;
+}
+.contact{
+    background-color: #3cadd4;
+    color: #ffffff;
+    padding: 100px 0;
+}
+.contact-header{
+    text-align: center;
+}
+.contact-header h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.contact-header p {
+    font-size: 20px;
+}
+.contact-content{
+    margin-top: 100px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"]{
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 11px;
+    width: 25%;
+}
+
+textarea {
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 25px;
+    height: 200px;
+    width: 50%;
+    margin-top: 20px;
+    resize: none;
+}
+.contact-content button{
+    margin-top: 20px;
+}
+::placeholder{
+    color: #858585;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    background-color: #383b43;
+    padding: 100px 0;
+}
+
+.copyright li{
+    color: #858585;
+    display: inline;
+    font-size: 15px;
+    margin: 0 5px;
+}
+.copyright a{
+    color: #858585;
+}

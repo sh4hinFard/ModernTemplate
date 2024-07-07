@@ -1,1 +1,1 @@
-# TemplateProject1
+# ModernTemplate
